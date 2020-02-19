@@ -13,9 +13,9 @@ function Item() {
         title={item.title}
         subtitle={item.subtitle}
       />
-      <p>
-        {item.category}
-      </p>
+      <article>
+        {item.description}
+      </article>
     </div>
   )
 }
